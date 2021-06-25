@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.recipe {
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   
+}
+.title{
+    font-weight: bolder;
+}
+
+.recipe-title{
+    color: black;
+    font-style: bold;
+}
+
+.recipe-title img {
+    max-width: 300px;
+    float: left;
+    margin: 10px;
+   
+}
+
+.recipe-ingredientes {
+    margin: 10px;
+    padding: 2%;
+}
+
+.recipe-ingredientes ul {
+    list-style: none;
+}
+
+.recipe-instructions {
+    font-style: italic;
+    margin: 10px;
+}
+
+.recipe-instructions ul {
+    list-style: none;
+}
+
+.recipe-instructions li {
+    padding: 2px;
+    
+}
+
+.recipe-ingredientes li:first-child{
+    color: #f08080;
+}
+
+
+.derivados {
+    color: #ffffe0;
+}
+
+.vegetais  {
+    color: #90ee90;
+}
